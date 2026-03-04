@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrivo — Privacy Policy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav__logo">Arrivo</a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="privacy.html" class="nav__link" aria-current="page">Privacy Policy</a>
+        <a href="terms.html" class="nav__link">Terms & Conditions</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="document">
+      <h1>Privacy Policy</h1>
+      <div class="effective-date">Effective date: March 4, 2026</div>
+
+      <p>Arrivo ("the App") respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use our arrival and alarm application.</p>
+
+      <div class="highlight-box">
+        <p><strong>Core Principle:</strong> Arrivo is designed to help you arrive on time. We only access data necessary for this core functionality, and we never sell your personal information.</p>
+      </div>
+
+      <h2>1. Information We Collect</h2>
+
+      <h3>1.1 Location Data</h3>
+      <p>Arrivo requests access to your location for the following purposes:</p>
+      <ul>
+        <li><strong>When In Use:</strong> To calculate travel time to your destination when you actively create an alarm or reminder.</li>
+        <li><strong>Always (including background updates):</strong> To monitor your progress while traveling and trigger intelligent arrival alarms when you approach your destination or if your route changes unexpectedly.</li>
+      </ul>
+      <p><strong>Why we need "Always" permission:</strong> Unlike simple alarms, Arrivo's core value is adapting to reality. If you're on the road and hit unexpected traffic, we need background location to recalculate and adjust your alarm time. This ensures you're not late and not woken up too early.</p>
+
+      <h3>1.2 Background Location</h3>
+      <p>If you grant "Always" permission, Arrivo may access your location in the background to:</p>
+      <ul>
+        <li>Monitor your current location against your destination</li>
+        <li>Detect when you depart or arrive</li>
+        <li>Update estimated arrival times based on real-time traffic conditions</li>
+        <li>Trigger alarms and notifications at the optimal moment</li>
+      </ul>
+      <p>You can disable background location at any time in iOS Settings → Arrivo → Location. However, please note that this will limit the app's ability to provide intelligent arrival alarms.</p>
+
+      <h3>1.3 Audio and Alarm Features</h3>
+      <p>Arrivo uses audio capabilities to provide:</p>
+      <ul>
+        <li>Wake-up alarms and arrival notifications</li>
+        <li>Sound playback for reminders</li>
+        <li>Background audio to ensure alarms trigger reliably (using AlarmKit framework)</li>
+      </ul>
+      <p><strong>Important:</strong> Arrivo does NOT record audio. We only play pre-configured alarm sounds.</p>
+
+      <h3>1.4 AlarmKit Framework</h3>
+      <p>Arrivo integrates AlarmKit to provide reliable scheduling of:</p>
+      <ul>
+        <li>Departure alarms</li>
+        <li>Arrival notifications</li>
+        <li>Time-based reminders</li>
+      </ul>
+      <p>AlarmKit processes are executed locally on your device. No alarm data is transmitted to external servers.</p>
+
+      <h3>1.5 Background Processing</h3>
+      <p>Arrivo performs background tasks to:</p>
+      <ul>
+        <li>Refresh travel time estimates</li>
+        <li>Check for route changes</li>
+        <li>Schedule and manage pending alarms</li>
+      </ul>
+      <p>These tasks use iOS Background Processing API and are optimized for minimal battery impact.</p>
+
+      <h2>2. Data Storage and Processing</h2>
+
+      <h3>2.1 Local Storage</h3>
+      <p>The majority of your data is stored locally on your device using CoreData:</p>
+      <ul>
+        <li>Your saved destinations</li>
+        <li>Alarm configurations</li>
+        <li>App preferences</li>
+      </ul>
+
+      <h3>2.2 iCloud Sync (Optional)</h3>
+      <p>If you enable iCloud, your data may be synchronized across your Apple devices using CloudKit. This is optional and can be disabled at any time in iOS Settings. iCloud data is handled according to Apple's privacy policy.</p>
+
+      <h2>3. Third-Party Services</h2>
+
+      <h3>3.1 No Data Selling</h3>
+      <p>Arrivo does not sell, rent, or trade your personal information to third parties.</p>
+
+      <h3>3.2 Apple Services</h3>
+      <p>The App may use standard Apple services:</p>
+      <ul>
+        <li>Apple Maps / MapKit (for location display and routing)</li>
+        <li>Core Location (for GPS positioning)</li>
+        <li>CloudKit (if iCloud sync is enabled)</li>
+      </ul>
+      <p>These services are governed by Apple's privacy policy.</p>
+
+      <h3>3.3 Analytics</h3>
+      <p>Arrivo may collect anonymous usage statistics to improve the app. This data cannot be used to identify you personally. If you prefer not to contribute to analytics, you can disable this in the app settings.</p>
+
+      <h2>4. Your Rights and Choices</h2>
+
+      <h3>4.1 Managing Permissions</h3>
+      <p>You have full control over your data:</p>
+      <ul>
+        <li><strong>Location:</strong> Grant or revoke location permissions in iOS Settings</li>
+        <li><strong>Background App Refresh:</strong> Control background activity in iOS Settings</li>
+        <li><strong>Notifications:</strong> Customize or disable notifications</li>
+        <li><strong>iCloud Sync:</strong> Enable or disable in app Settings</li>
+      </ul>
+
+      <h3>4.2 Deleting Your Data</h3>
+      <p>Since Arrivo primarily stores data locally:</p>
+      <ul>
+        <li>Deleting the app removes all locally stored data</li>
+        <li>If you use iCloud sync, delete the app data from your iCloud settings</li>
+        <li>Contact us if you need assistance with data deletion</li>
+      </ul>
+
+      <h2>5. Children's Privacy</h2>
+      <p>Arrivo is not directed at children under 13. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us.</p>
+
+      <h2>6. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the effective date.</p>
+
+      <h2>7. Contact Us</h2>
+      <p>If you have questions about this Privacy Policy or Arrivo's data practices:</p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:sup_dostan@outlook.com">sup_dostan@outlook.com</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/dostanT" target="_blank">https://github.com/dostanT</a></li>
+      </ul>
+
+      <a href="index.html" class="back-link">← Back to Legal Center</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Arrivo. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
